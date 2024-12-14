@@ -25,9 +25,9 @@ As shown below, the inferred masks look similar to the ground truth masks. <br>
 <th>Prediction: inferred_mask</th>
 </tr>
 <tr>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/mini_test/images/10005.jpg" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/mini_test/masks/10005.jpg" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/mini_test_output/10005.jpg" width="320" height="auto"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/mini_test/images/10085.jpg" width="320" height="auto"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/mini_test/masks/10085.jpg" width="320" height="auto"></td>
+<td><img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/mini_test_output/10085.jpg" width="320" height="auto"></td>
 </tr>
 
 <tr>
