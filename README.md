@@ -1,5 +1,6 @@
-<h2>Tensorflow-Image-Segmentation-Clustered-Cervical-Cell (2024/12/14)</h2>
-
+<h2>Tensorflow-Image-Segmentation-Clustered-Cervical-Cell (Updated: 2024/12/15)</h2>
+<li>2024/12/15: Retrained our model by using the latest Clustered-Cervical-Cell dataset. </li>
+<br>
 This is the first experiment of Image Segmentation for Clustered-Cervical-Cell 
  based on 
 the latest <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>, 
@@ -228,8 +229,8 @@ On detail, please refer to <a href="./projects/TensorflowSlightlyFlexibleUNet/Cl
 epoch_change_infer</a> folder.
 <br>
 <br>
-In this experiment, the training process was stopped at epoch 54  by EarlyStopping Callback.<br><br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/asset/train_console_output_at_epoch_54.png" width="720" height="auto"><br>
+In this experiment, the training process was stopped at epoch 71  by EarlyStopping Callback.<br><br>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/asset/train_console_output_at_epoch_71.png" width="720" height="auto"><br>
 <br>
 
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/eval/train_metrics.csv">train_metrics.csv</a><br>
@@ -255,16 +256,16 @@ python ../../../src/TensorflowUNetEvaluator.py ./train_eval_infer_aug.config
 </pre>
 
 Evaluation console output:<br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/asset/evaluate_console_output_at_epoch_54.png" width="720" height="auto">
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/asset/evaluate_console_output_at_epoch_71.png" width="720" height="auto">
 <br><br>Image-Segmentation-Clustered-Cervical-Cell
 
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/evaluation.csv">evaluation.csv</a><br>
 
-The loss (bce_dice_loss) to this Clustered-Cervical-Cell/test was low, but dice_coef not so high as shown below.
+The loss (bce_dice_loss) to this Clustered-Cervical-Cell/test was low and dice_coef high as shown below.
 <br>
 <pre>
-loss,0.1651
-dice_coef,0.8646
+loss,0.1349
+dice_coef,0.8908
 </pre>
 <br>
 
