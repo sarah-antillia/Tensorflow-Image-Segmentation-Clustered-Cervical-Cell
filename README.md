@@ -225,9 +225,11 @@ By using this callback, on every epoch_change, the inference procedure can be ca
 <b>Epoch_change_inference output</b><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/asset/epoch_change_infer.png" width="1024" height="auto"><br>
 <br>
+<!--
 On detail, please refer to <a href="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/epoch_change_infer">
 epoch_change_infer</a> folder.
 <br>
+-->
 <br>
 In this experiment, the training process was stopped at epoch 71  by EarlyStopping Callback.<br><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Clustered-Cervical-Cell/asset/train_console_output_at_epoch_71.png" width="720" height="auto"><br>
