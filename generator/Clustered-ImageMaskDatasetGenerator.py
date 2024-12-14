@@ -13,8 +13,8 @@
 # limitations under the License.
 #
 
-# 2024/12/13
-# Clustered-ImageMaskDatasetGenerator.py
+# 2024/08/30
+# ImageMaskDatasetGenerator.py
 
 import os
 import shutil
@@ -105,7 +105,10 @@ class ImageMaskDatasetGenerator:
       h, w = image.shape[:2]
       rh = int(h * self.SHRINK_RATIO)
       rw = int(w * self.SHRINK_RATIO)
-      image = cv2.resize(image, (rh, rw))
+      #image = cv2.resize(image, (rh, rw))
+      #2024/12/14 Fixed the bug.
+      image = cv2.resize(image, (rw, rh))
+
       image = self.resize_to_square(image, ismask=False)
       cv2.imwrite(output_filepath, image)
       print("--- Saved {}".format(output_filepath))
